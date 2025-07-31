@@ -6,7 +6,10 @@ import Image from 'next/image';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <nav
+    className="navbar navbar-expand-lg navbar-dark sticky-top"
+    style={{ backgroundColor: 'var(--swe-purple)' }}
+>
             <div className="container">
                 <Link href="/" className="navbar-brand d-flex align-items-center">
                     <Image
