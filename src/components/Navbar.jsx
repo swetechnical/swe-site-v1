@@ -1,23 +1,23 @@
-'use client'; // Essential for client-side interactivity
+'use client';
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image'; // Import the Image component
+import Image from 'next/image';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div className="container">
-                <Link href="/" className="navbar-brand">
-                 
+                <Link href="/" className="navbar-brand d-flex align-items-center">
                     <Image
                         src="/swe-logo.svg"
                         alt="SWE Logo"
-                        width={120} // Adjust width as needed for your logo
-                        height={50} // Adjust height as needed for your logo
+                        width={120}
+                        height={50}
                         style={{ backgroundColor: 'white' }}
                     />
                 </Link>
+
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -29,16 +29,15 @@ export default function Navbar() {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
+
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav me-auto">
+                    <ul className="navbar-nav ms-auto"> {/* Right aligned */}
                         <li className="nav-item">
-                            {/* Use Link for internal navigation */}
                             <Link href="/events" className="nav-link">
                                 Events
                             </Link>
                         </li>
                         <li className="nav-item">
-                            {/* Use Link for internal navigation */}
                             <Link href="/members" className="nav-link">
                                 Members
                             </Link>
