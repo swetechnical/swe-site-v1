@@ -1,0 +1,196 @@
+
+
+:root {
+  --swe-purple: #5A5377;
+  --swe-gold: #DBC554;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: var(--swe-purple);
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: var(--swe-gold) !important;
+}
+
+.dropdown-menu {
+  background-color: var(--swe-purple);
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: var(--swe-gold);
+  color: var(--swe-purple) !important;
+}
+
+.btn-swe {
+  background-color: var(--swe-gold);
+  color: var(--swe-purple);
+  border: none;
+}
+
+.btn-swe:hover {
+  background-color: #c9b44c;
+  color: var(--swe-purple);
+}
+
+
+
+footer {
+  background-color: var(--swe-purple);
+  color: white;
+  padding: 2rem 0;
+}
+
+.section-title {
+  color: var(--swe-purple);
+  border-bottom: 2px solid var(--swe-gold);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* app/globals.css */
+
+:root {
+    --swe-purple: #5A5377;
+    --swe-gold: #DBC554;
+}
+
+body {
+    font-family: sans-serif; /* Example font */
+}
+
+.navbar {
+    background-color: var(--swe-purple);
+}
+
+/* New Hero Section Styles */
+.hero-section-new {
+    position: relative; /* Needed for absolute positioning of overlay */
+    width: 100%;
+    min-height: 100vh; /* Ensures it takes at least full viewport height */
+    background-image: url('/hero-bg.jpg'); /* Correct path for public folder */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    color: white; /* Default text color for the section */
+    overflow: hidden; /* Hide any overflow if image is too large */
+}
+
+.hero-overlay-new {
+    position: absolute; /* Position over the background image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay (50% opacity) */
+    /* You can change rgba(0,0,0,0.5) to rgba(var(--swe-purple-rgb), 0.7) if you have an RGB variable for purple */
+    z-index: 1; /* Ensure it's above the background but below content */
+}
+
+.hero-content-new {
+    position: relative; /* Position above the overlay */
+    z-index: 2; /* Higher z-index than the overlay */
+    padding: 20px; /* Add some padding around the content */
+    max-width: 800px; /* Limit content width for readability */
+}
+
+.member-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-img {
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--swe-gold);
+}
+
+.member-position {
+    color: var(--swe-purple);
+    font-weight: 600;
+}
+
+.member-dept, .member-year {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.social-links a {
+    color: var(--swe-purple);
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: var(--swe-purple);
+    color: white;
+}
+
+.team-badge {
+    background-color: var(--swe-gold);
+    color: var(--swe-purple);
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block; /* To make padding and border-radius work correctly */
+    margin-bottom: 0.5rem; /* Add some space below the badge */
+}
+
+
+
+/* Style for the individual tab buttons (INACTIVE TABS) */
+.nav-tabs .nav-link {
+    color: white; /* Changed: Text color of inactive tabs is now gold */
+    background-color: var(--swe-purple); /* Ensure inactive tab background is white */
+
+    margin-right: 0px; /* Spacing between tabs */
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem; /* Rounded top corners */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Style for tab buttons on hover */
+.nav-tabs .nav-link:hover {
+
+    color: var(--swe-purple); /* Changed: Hover text color is now purple for contrast */
+   
+    opacity: 0.9; /* Slight transparency on hover */
+}
+
+/* Style for the active tab button */
+.nav-tabs .nav-link.active {
+    background-color: var(--swe-purple); /* SWE purple background for active tab */
+    color: var(--swe-gold); /* White text for active tab */
+    border-color: var(--swe-purple); /* SWE purple border for active tab */
+  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+

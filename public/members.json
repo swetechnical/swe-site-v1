@@ -1,0 +1,42 @@
+
+{
+  "advisoryBoardMembers": [],
+  "coreTeamMembers": [],
+  "teamHeadsMembers": [
+    {
+      "name": "Antara Kumari",
+      "position": "Technical Team Head",
+      "year": "Third Year",
+      "image": "/member-pics/antara.jpg",
+      "social": { "linkedin": "https://www.linkedin.com/in/antara-kumari-611582279/", "instagram": "https://www.instagram.com/antaraa_31/" }
+    },
+    {
+      "name": "Manya Srivastava",
+      "position": "Operations Head",
+      "year": "Third Year",
+      "image": "/member-pics/manya.jpg",
+      "social": { "linkedin": "www.linkedin.com/in/manyasrivastava-", "instagram": "https://www.instagram.com/___manyaaaaa/#" }
+    },
+    {
+      "name": "Pranamya Jathan",
+      "position": "Sponsorship Vice head",
+      "year": "Third Year",
+      "image": "/member-pics/pranamya.jpg",
+      "social": { "linkedin": "https://www.linkedin.com/in/pranamya-jathan-a7a78828b?", "instagram": "https://www.instagram.com/pranamya961/#" }
+    },
+    {
+      "name": "Durva Borhade",
+      "position": "Operations Vice Head",
+      "year": "Final Year",
+      "image": "/member-pics/durva.jpeg",
+      "social": { "linkedin": "https://in.linkedin.com/in/durva-borhade-a836a3345", "instagram": "https://www.instagram.com/durvaborhade/#" }
+    },
+    {
+      "name": "Padmali Deshmukh",
+      "position": "Media Head",
+      "year": "Second Year",
+      "image": "/member-pics/padmali.jpg",
+      "social": { "linkedin": "https://www.linkedin.com/in/padmali-deshmukh-268344287", "instagram": "https://www.instagram.com/padmali.deshmukh?igsh=MWJhYzk2MHVwYnhiaA==" }
+    }
+  ]
+}

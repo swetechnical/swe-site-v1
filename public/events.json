@@ -1,0 +1,30 @@
+{
+  "pastEvents": [
+    {
+      "id": 1,
+      "title": "Orientation",
+      "date": "March 15, 2023",
+      "description": "Club orientation to introduce interested students to SWE-MITWPU.",
+      "type": "Conference",
+      "image": "/orientation-1/3-min.png",
+      "alt": "Tech Conference"
+    }
+  ],
+  "upcomingEvents": [
+    {
+      "id": 1,
+      "title": "Orientation 2025",
+      "date": "Coming soon!",
+      "description": "Club orientation to introduce interested students to SWE-MITWPU.",
+      "type": "Conference",
+      "image": "/orientation-1/4-min.png",
+      "alt": "Featured Event",
+      "isFeatured": true,
+      "features": [
+        "Know about upcoming SWE events.",
+        "Talk with the real team behind this chapter.",
+        "Connect with fellow students and seniors."
+      ]
+    }
+  ]
+}
