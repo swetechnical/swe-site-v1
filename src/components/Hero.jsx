@@ -11,11 +11,14 @@ const Hero = ({ title, description, imageSrc }) => {
       className="hero-section-new d-flex align-items-center justify-content-center text-white text-center position-relative"
       // Dynamically set background-image using imageSrc prop
       style={{
-        backgroundImage: `url(${imageSrc})`, // This makes the image dynamic
-        backgroundSize: 'cover',             // Ensures the image covers the entire area
-        backgroundPosition: 'center',        // Centers the image
-        minHeight: '70vh',                   // Ensures a minimum height for the hero section
-      }}
+  backgroundImage: `url(${imageSrc})`, // This makes the image dynamic
+  backgroundSize: 'cover',             // Ensures the image covers the entire area
+  backgroundPosition: 'center',
+  backgroundColor: 'black',
+  border: '5px solid var(--swe-gold)',  // Increased border width to 10px (adjust as needed)
+  minHeight: '70vh',                   // Ensures a minimum height for the hero section
+}}
+
     >
       {/* This overlay should still work on top of the dynamic background */}
       {/* Note: If w-90 h-90 doesn't cover the entire section, you might

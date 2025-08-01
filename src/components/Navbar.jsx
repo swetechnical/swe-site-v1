@@ -15,7 +15,7 @@ export default function Navbar() {
                     <Image
                         src="/swe-logo-1.png"
                         alt="SWE Logo"
-                        width={100}
+                        width={90}
                         height={50}
                         style={{ backgroundColor: '' }}
                     />

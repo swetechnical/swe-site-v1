@@ -21,7 +21,7 @@ export default function HeForSWEPage() {
             <Hero
                 title="HeForSWE Affinity Group: Men as Diversity Partners"
                 description="The 'Men as Diversity Partners' SWE podcast series highlights conversations about male diversity partners and their impact on advancing women engineers. These conversations inspired the creation of the HeForSWE Affinity Group."
-                imageSrc="/misc/he-for-swe.png" 
+                imageSrc="" 
             />
 
             {/* Main Content Section  */}
