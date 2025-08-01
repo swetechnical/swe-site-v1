@@ -13,11 +13,11 @@ export default function Navbar() {
             <div className="container">
                 <Link href="/" className="navbar-brand d-flex align-items-center">
                     <Image
-                        src="/swe-logo.svg"
+                        src="/swe-logo-1.png"
                         alt="SWE Logo"
-                        width={120}
+                        width={100}
                         height={50}
-                        style={{ backgroundColor: 'white' }}
+                        style={{ backgroundColor: '' }}
                     />
                 </Link>
 

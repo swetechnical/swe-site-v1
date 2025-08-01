@@ -1,8 +1,8 @@
+// EventsPage.js
 'use client';
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-
 
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
@@ -80,7 +80,7 @@ export default function EventsPage() {
   return (
     <>
       <Navbar />
-
+      
       {/* Page Header */}
       <section className="py-5" style={{ backgroundColor: 'var(--swe-purple)', color: 'white' }}>
         <div className="container text-center">
@@ -102,6 +102,10 @@ export default function EventsPage() {
                 aria-controls="upcoming-events"
                 aria-selected={activeTab === 'upcoming'}
                 onClick={() => setActiveTab('upcoming')}
+                style={{
+                  backgroundColor: activeTab === 'upcoming' ? 'var(--swe-purple)' : 'var(--swe-purple)',
+                  color: activeTab === 'upcoming' ? 'white' : 'var(--swe-purple)' // Optional: change text color on active tab
+                }}
               >
                 Upcoming Events
               </button>
@@ -115,6 +119,10 @@ export default function EventsPage() {
                 aria-controls="past-events"
                 aria-selected={activeTab === 'past'}
                 onClick={() => setActiveTab('past')}
+                style={{
+                  backgroundColor: activeTab === 'past' ? 'var(--swe-purple)' : 'var(--swe-purple)',
+                  color: activeTab === 'past' ? 'white' : 'var(--swe-purple)' // Optional: change text color on active tab
+                }}
               >
                 Past Events
               </button>
@@ -165,10 +173,6 @@ export default function EventsPage() {
                             </li>
                           ))}
                         </ul>
-                        <div className="d-flex justify-content-between align-items-center">
-                      
-                 
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -195,7 +199,6 @@ export default function EventsPage() {
                         <p className="card-text">{event.description}</p>
                         <div className="mt-auto d-flex justify-content-between align-items-center">
                           <span className="badge rounded-pill" style={{ backgroundColor: 'var(--swe-gold)', color: 'var(--swe-purple)' }}>{event.type}</span>
-          
                         </div>
                       </div>
                     </div>
